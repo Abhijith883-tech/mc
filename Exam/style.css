@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+}
+.nav-nav-heading{
+    background-image: url(https://responsive2356.netlify.app/img/182428240217.jpg);
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-items a:hover {
+    color: #ddd;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.nav-heading h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.nav-heading .search-button{
+    margin-left: 103px;
+    width: 14%;
+    height: 33px;
+}
+.service{
+    /* background-color: black; */
+}
+.service h2,h4{
+    color: white;
+    margin-left: 115px;
+
+}
+.one-1{
+    width: 52%;
+    /* height: 30px; */
+    border: solid;
+    margin-left: 115px;
+}
+.one-one{
+    display: flex;
+}
+.aaa{
+    height: 20px;
+    width: 30%;
+}
+.one-two{
+    display: flex;
+}
+
